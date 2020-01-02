@@ -1,0 +1,56 @@
+.counter-wrapper {
+  display: flex;
+  background-color: #000000;
+
+  .counter-numbers {
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, .21);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 115px;
+    margin-left: 18px;
+    width: 115px;
+    position: relative;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    .num-text,
+    .title {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: 'Raleway', sans-serif;
+      line-height: 1;
+    }
+
+    .title {
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    .counter-stroke {
+      stroke-width: 5;
+      fill: transparent;
+      left: 0;
+      top: 0;
+      position: absolute;
+
+      &.days {
+        stroke: #fff324;
+      }
+      &.hours {
+        stroke: #ffffff;
+      }
+      &.minutes {
+        stroke: #2f7f05;
+      }
+      &.seconds {
+        stroke: #ff1710;
+      }
+    }
+  }
+}

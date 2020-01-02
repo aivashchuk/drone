@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less']
+  template: `<app-layout></app-layout>`
 })
 export class AppComponent {
   title = 'Drone';
