@@ -17,42 +17,66 @@ export class CounterComponent implements OnInit {
     days: 5,
     hours:10,
     minutes: 45,
-    seconds: 15
+    seconds: 5
 };
 
-  private dasharray: number = 345.5;
-  private dashoffset: number = 0;
+  private circumference: number = 345.5;
+  private step: number = this.circumference / 60;
+  private dasharray = this.circumference;
+  private dashoffset = {
+    days: (this.circumference / 2) * -1 ,
+    hours: (this.circumference / 100 * 59) * -1,
+    minutes: (this.circumference / 100 * 25) * -1,
+    seconds: (this.circumference / 100 * (100 - (this.date.seconds / (60/100)))) * -1
+  };
+
+  // private dashoffset: number = 0;
+  private secondsTransition: string = '';
 
   constructor(private changeDetector: ChangeDetectorRef) { }
 
   ngOnInit() {
-
-    // this.timer();
+    this.timer()
   }
 
   private timer() {
     let timer: Observable<number> = interval(1000);
+
     timer.subscribe(
       num => {
-        this.date.seconds -= 1;
-        this.animateSeconds();
-        if(this.date.seconds === -1) {
-          this.date.seconds = 59;
-          this.date.minutes -= 1;
-          this.animateMinutes();
+        this.animate('seconds');
+
+        if(this.date.seconds === 0) {
+          this.animate('minutes');
+          this.date.seconds = 60;
         }
-        if(this.date.minutes === -1) {
+
+        if(this.date.seconds === -1) {
+        }
+        if(this.date.minutes === 0) {
           this.date.minutes = 59;
           this.date.hours -= 1;
-          this.animateHours();
+          this.animate('hours');
         }
-        this.changeDetector.detectChanges();
       }
     );
   }
 
-  private animateSeconds() {}
-  private animateMinutes() {}
-  private animateHours() {}
+  private animate(place) {
+    if(place === 'seconds') {
+      this.date.seconds -= 1;
+      this.dashoffset.seconds -= this.step;
+    }
+    else if (place === 'minutes') {
+      this.dashoffset.seconds = 0;
+      this.date.minutes -= 1;
+      this.dashoffset.minutes -= this.step;
+    }
+    else if(place === 'hours') {
+      this.dashoffset.hours -= this.step;
+    }
+
+    this.changeDetector.detectChanges();
+  }
 
 }
