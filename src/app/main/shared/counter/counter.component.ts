@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output, ChangeDetectorRef } from '@angular/core';
 import {interval, Observable} from "rxjs";
-import { map } from "rxjs/operators";
 import { Date } from "./date";
 
 @Component({
