@@ -1,0 +1,58 @@
+@import "../../../../../styles/_variables";
+
+.top-present-wrapper {
+  left: 0;
+  top: 451px;
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+
+  .left {
+    border-right: 5px solid @red;
+    height: 173px;
+    padding-right: 25px;
+
+    .present-img {
+      background: url("src/assets/images/sprite.png") no-repeat 0 -881px;
+      height: 119px;
+      margin: 0 auto;
+      width: 99px;
+    }
+
+    .title {
+      color: @white;
+      font-size: 37px;
+    }
+  }
+
+  .right{
+    padding: 10px 0 10px 25px;
+
+    .plus {
+      color: @white;
+      font-size: 31px;
+      min-height: 57px;
+      line-height: 1.2;
+      position: relative;
+      padding-left: 68px;
+
+      &:first-child {
+        font-size: 38px;
+        line-height: 57px;
+      }
+
+      &:before {
+        content: '+';
+        color: @yellow;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 112px;
+        font-weight: 600;
+        line-height: 0.5;
+        left: -5px;
+        top: 50%;
+        transform: translate(0, -50%);
+        position: absolute;
+      }
+    }
+  }
+}

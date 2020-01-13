@@ -12,4 +12,11 @@ export class TopMenuComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollTo (id) {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+  }
+
 }

@@ -29,13 +29,10 @@ export class CounterComponent implements OnInit {
     seconds: (this.circumference / 100 * (100 - (this.date.seconds / (60/100)))) * -1
   };
 
-  // private dashoffset: number = 0;
-  private secondsTransition: string = '';
-
   constructor(private changeDetector: ChangeDetectorRef) { }
 
   ngOnInit() {
-    this.timer()
+    // this.timer()
   }
 
   private timer() {
