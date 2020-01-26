@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-video-block',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./video-block.component.less']
 })
 export class VideoBlockComponent implements OnInit {
+  @ViewChild('videoPlayer', {static: true}) videoPlayer: ElementRef;
 
   private isPlaying: boolean = false;
 
@@ -14,10 +15,8 @@ export class VideoBlockComponent implements OnInit {
   ngOnInit() {
   }
 
-  toggleVideo(event) {
-    const video = event.target;
-
-    this.isPlaying ? video.play() : video.pause();
+  toggleVideo() {
+    this.isPlaying ? this.videoPlayer.nativeElement.play() : this.videoPlayer.nativeElement.pause();
     this.isPlaying = !this.isPlaying;
   }
 
