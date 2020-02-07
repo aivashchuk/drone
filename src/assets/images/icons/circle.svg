@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64.7456mm" height="71.5719mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 208 230"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .circle-fil0 {fill:#FFBD00}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <path class="circle-fil0" d="M104 0c58,0 104,47 104,104 0,54 -40,98 -93,104l-4 9 -7 13 -6 -13 -5 -9c-52,-6 -93,-50 -93,-104 0,-57 47,-104 104,-104z"/>
+ </g>
+</svg>

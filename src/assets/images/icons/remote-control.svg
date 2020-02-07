@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="48.0219mm" height="48.0293mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 167 167"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .remote-fil0 {fill:#434242}
+    .remote-fil3 {fill:#E31E24}
+    .remote-fil1 {fill:#FEFEFE}
+    .remote-fil2 {fill:#FFD400}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="remote-control">
+   <rect class="remote-fil0" x="117" width="17.3058" height="83.6354" rx="7" ry="8"/>
+   <rect class="remote-fil0" x="34" width="17.3058" height="83.6354" rx="7" ry="8"/>
+   <path class="remote-fil0" d="M19 89l129 0c11,0 19,9 19,19l0 40c0,11 -8,19 -19,19l-129 0c-11,0 -19,-8 -19,-19l0 -40c0,-10 8,-19 19,-19z"/>
+   <path class="remote-fil1" d="M22 93l124 0c9,0 17,8 17,17l0 36c0,9 -8,17 -17,17l-124 0c-9,0 -17,-8 -17,-17l0 -36c0,-9 8,-17 17,-17z"/>
+   <path class="remote-fil0" d="M19 77l129 0c11,0 19,9 19,19l0 40c0,11 -8,19 -19,19l-129 0c-11,0 -19,-8 -19,-19l0 -40c0,-10 8,-19 19,-19z"/>
+   <path class="remote-fil2" d="M22 81l124 0c9,0 17,8 17,17l0 36c0,10 -8,17 -17,17l-124 0c-9,0 -17,-7 -17,-17l0 -36c0,-9 8,-17 17,-17z"/>
+   <g>
+    <circle class="remote-fil3" cx="73" cy="116" r="8"/>
+    <circle class="remote-fil3" cx="94" cy="116" r="8"/>
+   </g>
+   <g>
+    <circle class="remote-fil0" cx="37" cy="117" r="21"/>
+    <circle class="remote-fil2" cx="37" cy="117" r="16"/>
+    <circle class="remote-fil0" cx="37" cy="117" r="12"/>
+    <circle class="remote-fil1" cx="37" cy="117" r="8"/>
+   </g>
+   <g>
+    <circle class="remote-fil0" cx="130" cy="117" r="21"/>
+    <circle class="remote-fil2" cx="130" cy="117" r="16"/>
+    <circle class="remote-fil0" cx="130" cy="117" r="12"/>
+    <circle class="remote-fil1" cx="130" cy="117" r="8"/>
+   </g>
+   <rect class="remote-fil0" x="66" y="99" width="35.441" height="4.08204"/>
+   <rect class="remote-fil0" x="66" y="131" width="14.7285" height="4.08204"/>
+   <rect class="remote-fil0" x="86" y="131" width="14.7285" height="4.08204"/>
+   <rect class="remote-fil2" x="40" y="6" width="5.66956" height="70.9693"/>
+   <rect class="remote-fil2" x="123" y="6" width="5.66956" height="70.9693"/>
+  </g>
+ </g>
+</svg>

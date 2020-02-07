@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50.7112mm" height="50.6141mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 137 137"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .drone-fil1 {fill:#434242}
+    .drone-fil3 {fill:#FEFEFE}
+    .drone-fil0 {fill:#FF6566}
+    .drone-fil2 {fill:#FFE200}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="drone">
+   <g>
+    <g>
+     <rect class="drone-fil0" transform="matrix(0.707629 0.706584 -1.10743 1.10907 41.2944 -7.16116E-005)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(0.739522 -0.558555 0.38971 0.515973 19.9518 26.6729)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(0.527231 -0.762171 0.338475 0.23414 26.3414 22.8673)" width="4.15912" height="37.2884"/>
+     <circle class="drone-fil1" cx="22" cy="22" r="9"/>
+     <circle class="drone-fil2" cx="22" cy="22" r="5"/>
+    </g>
+    <g>
+     <rect class="drone-fil0" transform="matrix(-0.707629 0.706584 1.10743 1.10907 96.1447 -7.16116E-005)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(-0.739522 -0.558555 -0.38971 0.515973 117.487 26.6729)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(-0.527231 -0.762171 -0.338475 0.23414 111.098 22.8673)" width="4.15912" height="37.2884"/>
+     <circle class="drone-fil1" cx="115" cy="22" r="9"/>
+     <circle class="drone-fil2" cx="115" cy="22" r="5"/>
+    </g>
+   </g>
+   <g>
+    <g>
+     <rect class="drone-fil0" transform="matrix(0.707629 -0.706584 -1.10743 -1.10907 41.2944 137.176)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(0.739522 0.558555 0.38971 -0.515973 19.9518 110.503)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(0.527231 0.762171 0.338475 -0.23414 26.3414 114.309)" width="4.15912" height="37.2884"/>
+     <circle class="drone-fil1" cx="22" cy="115" r="9"/>
+     <circle class="drone-fil2" cx="22" cy="115" r="5"/>
+    </g>
+    <g>
+     <rect class="drone-fil0" transform="matrix(-0.707629 -0.706584 1.10743 -1.10907 96.1447 137.176)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(-0.739522 0.558555 -0.38971 -0.515973 117.487 110.503)" width="4.15912" height="37.2884"/>
+     <rect class="drone-fil1" transform="matrix(-0.527231 0.762171 -0.338475 -0.23414 111.098 114.309)" width="4.15912" height="37.2884"/>
+     <circle class="drone-fil1" cx="115" cy="115" r="9"/>
+     <circle class="drone-fil2" cx="115" cy="115" r="5"/>
+    </g>
+   </g>
+   <path class="drone-fil1" d="M54 22c-10,0 -13,17 -14,28l0 0 0 37c0,15 13,28 29,28l0 0 0 0 0 0c15,0 28,-13 28,-28l0 -37 0 0c-1,-11 -4,-28 -14,-28 -10,0 -19,0 -29,0z"/>
+   <path class="drone-fil3" d="M56 25c-8,0 -11,16 -12,26l0 0 0 34c0,15 11,26 25,26l0 0 0 0 0 0c13,0 24,-11 24,-26l0 -34 0 0c-1,-10 -3,-26 -12,-26 -8,0 -16,0 -25,0z"/>
+   <path class="drone-fil1" d="M85 22c-1,52 -8,92 -16,92 -9,0 -15,-40 -16,-92 0,0 1,0 1,0 10,0 19,0 29,0 1,0 1,0 2,0z"/>
+   <path class="drone-fil2" d="M81 25c-1,48 -6,84 -12,84 -6,0 -12,-36 -12,-84 0,0 0,0 1,0 7,0 14,0 21,0 1,0 1,0 2,0z"/>
+   <rect class="drone-fil1" x="43" y="53" width="5.66493" height="3.80056"/>
+   <rect class="drone-fil1" x="43" y="62" width="5.66493" height="3.80056"/>
+   <rect class="drone-fil1" x="43" y="71" width="5.66493" height="3.80056"/>
+   <rect class="drone-fil1" x="43" y="80" width="5.66493" height="3.80056"/>
+   <g>
+    <rect class="drone-fil1" x="88" y="53" width="5.66493" height="3.80056"/>
+    <rect class="drone-fil1" x="88" y="62" width="5.66493" height="3.80056"/>
+    <rect class="drone-fil1" x="88" y="71" width="5.66493" height="3.80056"/>
+    <rect class="drone-fil1" x="88" y="80" width="5.66493" height="3.80056"/>
+   </g>
+  </g>
+ </g>
+</svg>
