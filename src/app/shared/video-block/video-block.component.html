@@ -1,6 +1,5 @@
 <div class="video-wrapper">
-  <h2>Видео обзор</h2>
-
+  <h2>{{title}}</h2>
   <div class="video-wrapper">
     <video (click)="toggleVideo()"
            #videoPlayer
@@ -8,8 +7,10 @@
            controls
            preload="auto"
            id="video"
-           class="video"
-           src="../../../assets/video/drone-video.mp4"></video>
+           class="video">
+      <source src="{{srcWebm}}" type="video/webm">
+      <source src="{{srcMp4}}" type="video/mp4">
+    </video>
 <!--    <div class="video-cover"></div>-->
   </div>
 

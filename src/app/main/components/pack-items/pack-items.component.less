@@ -1,0 +1,27 @@
+@import "../../../../styles/_variables";
+
+.pack-wrapper {
+  background-color: @bg-gray;
+  height: 1060px;
+  position: relative;
+
+  .img {
+    background: url("../../../../assets/images/sprite.png") no-repeat;
+    position: absolute;
+
+    &-1 {
+      background-position: 0 0;
+      left: 0;
+      top: 0;
+      height: 337px;
+      width: 337px;
+    }
+    &-2 {
+      background-position: 0 -1157px;
+      right: 0;
+      top: 0;
+      height: 405px;
+      width: 728px;
+    }
+  }
+}

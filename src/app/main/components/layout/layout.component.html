@@ -1,5 +1,12 @@
 <div class="main-wrapper">
   <app-header ></app-header>
-  <app-video-block></app-video-block>
+  <app-video-block
+    [title]="'Видео обзорє'"
+    [srcMp4]="'../../../assets/video/drone-video.mp4'"></app-video-block>
   <app-advantages></app-advantages>
+  <app-video-block
+    [title]="'Распаковка дрона'"
+    [srcMp4]="'../../../assets/video/drone-unpacking.mp4'"
+    [srcWebm]="'../../../assets/video/drone-unpacking.WebM'"></app-video-block>
+  <app-pack-items></app-pack-items>
 </div>

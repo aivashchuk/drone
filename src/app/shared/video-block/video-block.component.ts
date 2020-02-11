@@ -1,4 +1,4 @@
-import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-video-block',
@@ -7,6 +7,10 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 })
 export class VideoBlockComponent implements OnInit {
   @ViewChild('videoPlayer', {static: true}) videoPlayer: ElementRef;
+
+  @Input() title: string;
+  @Input() srcMp4: string = '';
+  @Input() srcWebm: string = '';
 
   private isPlaying: boolean = false;
 

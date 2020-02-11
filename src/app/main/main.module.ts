@@ -5,13 +5,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { SharedModule } from "../shared/shared.module";
 import { TopPresentComponent } from './components/header/top-present/top-present.component';
 import { HeaderBottomComponent } from './components/header/header-bottom/header-bottom.component';
+import { PackItemsComponent } from './components/pack-items/pack-items.component';
 
 @NgModule({
   declarations: [
     LayoutComponent,
     HeaderComponent,
     TopPresentComponent,
-    HeaderBottomComponent
+    HeaderBottomComponent,
+    PackItemsComponent
   ],
   imports: [
     CommonModule,
@@ -19,7 +21,8 @@ import { HeaderBottomComponent } from './components/header/header-bottom/header-
   ],
   exports: [
     LayoutComponent,
-    HeaderComponent
+    HeaderComponent,
+    PackItemsComponent
   ]
 })
 export class MainModule { }
