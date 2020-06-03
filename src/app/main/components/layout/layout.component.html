@@ -1,12 +1,22 @@
 <div class="main-wrapper">
   <app-header ></app-header>
   <app-video-block
-    [title]="'Видео обзорє'"
+    [title]="'Видео обзор'"
     [srcMp4]="'../../../assets/video/drone-video.mp4'"></app-video-block>
-  <app-advantages></app-advantages>
+  <app-advantages
+    [title]="'ПРЕИМУЩЕСТВА'"
+    [subTitle]="'We are working with both individuals and businesses from all over the globe to create awesome websites and applications.'"
+  ></app-advantages>
   <app-video-block
     [title]="'Распаковка дрона'"
     [srcMp4]="'../../../assets/video/drone-unpacking.mp4'"
     [srcWebm]="'../../../assets/video/drone-unpacking.WebM'"></app-video-block>
   <app-pack-items></app-pack-items>
+  <app-reviews [imagesSrc]="['../../../assets/images/reviews/messenger.jpg', '../../../assets/images/reviews/messenger_2.jpg', '../../../assets/images/reviews/messenger_3.jpg']" [title]="'ОТЗЫВЫ НАШИХ ПОКУПАТЕЛЕЙ'"></app-reviews>
+  <app-how-to-order
+    [title]="'КАК ЗАКАЗАТЬ'"
+    [subTitle]="'ДОСТАВКА ПО ВСЕЙ УКРАИНЕ'"
+  ></app-how-to-order>
+  <app-form [title]="'ОФОРМИТЬ ЗАЯВКУ'"
+            [subTitle]="'заполните форму и наш менеджер перезвонит вам для подтверждения заказа'"></app-form>
 </div>

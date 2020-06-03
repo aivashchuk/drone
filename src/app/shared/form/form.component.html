@@ -1,0 +1,22 @@
+<div class="form-wrapper">
+  <h2>{{title}}</h2>
+  <div class="title-description">{{subTitle}}</div>
+  <form>
+    <mat-form-field class="input-wrapper">
+      <mat-label>Имя</mat-label>
+      <input class="input" type="text" matInput [formControl]="name">
+    </mat-form-field>
+    <mat-form-field class="input-wrapper">
+      <mat-label>Телефон</mat-label>
+      <span matPrefix>+38 &nbsp;</span>
+      <input class="input" type="tel" matInput [formControl]="phone">
+    </mat-form-field>
+    <mat-form-field class="input-wrapper">
+      <mat-label>Email</mat-label>
+      <input class="input" type="email" matInput [formControl]="mail">
+    </mat-form-field>
+<!--    <input class="input" type="text" placeholder="Телефон" [formControl]="phone">-->
+<!--    <input class="input" type="text" placeholder="email" [formControl]="mail">-->
+    <input class="input" type="button" class="button" value="купить" [formControl]="button">
+  </form>
+</div>

@@ -2,26 +2,79 @@
 
 .pack-wrapper {
   background-color: @bg-gray;
-  height: 1060px;
-  position: relative;
+
+  .pack-inner {
+    max-width: 1104px;
+    height: 910px;
+    position: relative;
+    margin: 0 auto;
+  }
 
   .img {
-    background: url("../../../../assets/images/sprite.png") no-repeat;
+    background: url(@spriteForMain) no-repeat;
     position: absolute;
 
     &-1 {
       background-position: 0 0;
       left: 0;
-      top: 0;
+      top: 60px;
       height: 337px;
       width: 337px;
     }
     &-2 {
-      background-position: 0 -1157px;
+      background-position: 0 -1207px;
+      right: 48px;
+      top: 87px;
+      height: 308px;
+      width: 547px;
+    }
+    &-3 {
+      background-position: -35px -369px;
+      left: 0;
+      bottom: 54px;
+      height: 346px;
+      width: 259px;
+    }
+    &-4 {
+      background-position: 0 -1650px;
+      right: 249px;
+      bottom: 121px;
+      height: 350px;
+      width: 357px;
+    }
+  }
+
+  .text {
+    color: #474747;
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+    position: absolute;
+    min-height: 72px;
+    padding-left: 64px;
+
+    &:before {
+      content: '+';
+      color: #ffa800;
+      font-size: 133px;
+      font-weight: 600;
+      line-height: 0.5;
+      text-transform: uppercase;
+      left: -5px;
+      top: 50%;
+      transform: translate(0, -50%);
+      position: absolute;
+    }
+
+    &-1 {
+      line-height: 72px;
+      top: 388px;
+      left: 0;
+    }
+    &-2 {
       right: 0;
-      top: 0;
-      height: 405px;
-      width: 728px;
+      bottom: 280px;
     }
   }
 }

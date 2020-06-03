@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-advantages',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./advantages.component.less']
 })
 export class AdvantagesComponent implements OnInit {
+  @Input() title: string;
+  @Input() subTitle: string;
 
   constructor() { }
 

@@ -1,0 +1,70 @@
+@import "../../../styles/_variables";
+
+.review-wrapper {
+  background-color: #eeeeee;
+  height: 1130px;
+  position: relative;
+
+  .rectangle-wrapper {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 195px;
+    overflow: hidden;
+    height: 270px;
+  }
+
+  .rectangle {
+    background: url(@spriteForShared) no-repeat -386px -810px;
+    height: 231px;
+    position: absolute;
+    width: 238px;
+
+    &-1 {
+      top: -140px;
+      left: 50%;
+      transform: translateX(506px);
+    }
+
+    &-2 {
+      top: 0;
+      left: -77px;
+      transform: rotateZ(-64deg);
+    }
+
+    &-3 {
+      bottom: -10px;
+      left: -108px;
+    }
+
+    &-4 {
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-260px);
+    }
+
+    &-5 {
+      transform: rotateZ(-64deg);
+      position: static;
+    }
+  }
+
+  .inner-wrapper {
+    align-items: stretch;
+    display: flex;
+    max-width: 1104px;
+    margin: 0 auto;
+    padding: 58px 0 134px;
+    position: relative;
+    justify-content: space-between;
+
+    .block {
+      width: 30%;
+      img {
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
