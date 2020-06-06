@@ -1,3 +1,5 @@
+@import "../../../styles/shared.less";
+
 .form-wrapper {
   background-color: #ffbd00;
   height: 790px;
@@ -43,9 +45,14 @@
       font-size: 18px;
     }
 
-
     .mat-form-field-underline {
       display: none;
+    }
+    .mat-form-field-flex {
+      align-items: center;
+      .mat-form-field-prefix {
+        margin-top: 20px;
+      }
     }
 
     .button {
@@ -54,6 +61,38 @@
       margin: 0 auto;
       height: 86px;
       width: 376px;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 600;
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: @desktopBreak) {
+  .form-wrapper {
+    form::ng-deep {
+      width: 502px;
+    }
+  }
+}
+
+@media screen and (max-width: @laptopBreak) {
+  .form-wrapper {
+    form::ng-deep {
+      width: 100%;
+      max-width: 502px;
+    }
+  }
+}
+
+@media screen and (max-width: @tabletBreak) {
+  .form-wrapper {
+    padding: 0 15px;
+    h2 {
+      font-size: 36px;
+      line-height: 42px;
     }
   }
 }
