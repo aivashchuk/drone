@@ -3,7 +3,7 @@
 .header-bottom-wrapper {
   bottom: 100px;
   left: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: absolute;
   width: 93%;
 
@@ -14,7 +14,7 @@
     display: block;
     font-size: 45px;
     font-weight: 600;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     height: 100px;
     line-height: 100px;
@@ -30,7 +30,7 @@
     &:before {
       background-color: @yellow;
       border-radius: 7px;
-      content: '';
+      content: "";
       height: 12px;
       top: 50%;
       left: -21px;
@@ -43,5 +43,90 @@
   .new-price {
     color: @yellow;
     font-size: 78px;
+  }
+}
+
+@media screen and (max-width: @desktopBreak) {
+  .header-bottom-wrapper {
+    bottom: 100px;
+    width: 100%;
+
+    .top-btn {
+      font-size: 30px;
+      height: 75px;
+      line-height: 75px;
+      width: 330px;
+    }
+
+    .old-price {
+      font-size: 50px;
+
+      &:before {
+        height: 10px;
+        left: -21px;
+        width: 270px;
+      }
+    }
+
+    .new-price {
+      font-size: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: @laptopBreak) {
+  .header-bottom-wrapper {
+    bottom: 100px;
+
+    .top-btn {
+      font-size: 24px;
+      height: 65px;
+      line-height: 65px;
+      width: 260px;
+    }
+
+    .old-price {
+      font-size: 40px;
+
+      &:before {
+        left: -21px;
+        width: 210px;
+      }
+    }
+
+    .new-price {
+      font-size: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: @tabletBreak) {
+  .header-bottom-wrapper {
+    bottom: 50px;
+    flex-direction: column !important;
+
+    .top-btn {
+      font-size: 19px;
+      height: 45px;
+      line-height: 45px;
+      width: 100%;
+      order: 1;
+      max-width: 250px;
+    }
+
+    .old-price {
+      font-size: 40px;
+      margin-bottom: 35px;
+
+      &:before {
+        left: -21px;
+        width: 210px;
+      }
+    }
+
+    .new-price {
+      font-size: 40px;
+      margin-bottom: 35px;
+    }
   }
 }

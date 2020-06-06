@@ -1,3 +1,4 @@
+@import "../../../styles/shared";
 .counter-wrapper {
   right: 57px;
   top: 30px;
@@ -9,7 +10,7 @@
     .counter-numbers {
       align-items: center;
       border-radius: 50%;
-      background-color: rgba(255,255,255, .21);
+      background-color: rgba(255, 255, 255, 0.21);
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -27,7 +28,7 @@
         color: #ffffff;
         font-size: 40px;
         font-weight: normal;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         line-height: 1;
         margin-top: -2px;
       }
@@ -65,8 +66,106 @@
   .counter-title {
     color: #cccccc;
     font-size: 39px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 600;
     margin-bottom: 36px;
+  }
+}
+
+@media screen and (max-width: @desktopBreak) {
+  .counter-wrapper {
+    right: 0;
+    top: 46px;
+
+    .counter-body {
+      .counter-numbers {
+        height: 90px;
+        margin-left: 15px;
+        width: 90px;
+        .num-text,
+        .title {
+          font-size: 30px;
+          margin-top: -2px;
+        }
+
+        .title {
+          font-size: 12px;
+          margin-top: 5px;
+        }
+
+        .counter-stroke {
+          stroke-width: 4;
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+
+    .counter-title {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+@media screen and (max-width: @laptopBreak) {
+  .counter-wrapper {
+    right: 0;
+    left: 0;
+    top: 96px;
+
+    .counter-body {
+      .counter-numbers {
+        height: 90px;
+        margin-left: 25px;
+        width: 90px;
+        .num-text,
+        .title {
+          font-size: 30px;
+          margin-top: -2px;
+        }
+
+        .title {
+          font-size: 12px;
+          margin-top: 5px;
+        }
+
+        .counter-stroke {
+          stroke-width: 4;
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+
+    .counter-title {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: @tabletBreak) {
+  .counter-wrapper {
+    top: 86px;
+
+    .counter-body {
+      .counter-numbers {
+        height: 75px;
+        margin-left: 15px;
+        width: 75px;
+        .num-text,
+        .title {
+          font-size: 20px;
+        }
+
+        .title {
+          font-size: 10px;
+        }
+      }
+    }
+
+    .counter-title {
+      font-size: 20px;
+    }
   }
 }

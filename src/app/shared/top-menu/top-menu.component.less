@@ -1,3 +1,5 @@
+@import "../../../styles/shared";
+
 .home-top-menu {
   padding-top: 45px;
 
@@ -6,7 +8,7 @@
     color: #9b9b9b;
     cursor: pointer;
     border-left: 1px solid #383838;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     height: 24px;
@@ -16,9 +18,45 @@
 
     &:first-child {
       border-left: none;
+      padding-left: 0;
     }
     &:hover {
       color: #ffffff;
+    }
+  }
+}
+
+@media screen and (max-width: @desktopBreak) {
+  .home-top-menu {
+    padding-top: 40px;
+
+    span {
+      font-size: 16px;
+      height: 22px;
+      padding: 0 15px;
+    }
+  }
+}
+@media screen and (max-width: @laptopBreak) {
+  .home-top-menu {
+    padding-top: 35px;
+
+    span {
+      font-size: 15px;
+      height: 20px;
+      padding: 0 14px;
+    }
+  }
+}
+
+@media screen and (max-width: @tabletBreak) {
+  .home-top-menu {
+    padding-top: 24px;
+
+    span {
+      font-size: 10px;
+      height: 16px;
+      padding: 0 10px;
     }
   }
 }
