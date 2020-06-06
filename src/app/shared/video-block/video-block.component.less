@@ -1,4 +1,6 @@
-.video-wrapper {
+@import "../../../styles/shared.less";
+
+.video-wrapper-main {
   overflow: hidden;
   padding-bottom: 38px;
 
@@ -15,7 +17,7 @@
     }
 
     .video-cover {
-      background: rgba(0,0,0, .1);
+      background: rgba(0, 0, 0, 0.1);
       left: 0;
       top: 0;
       position: absolute;
@@ -23,10 +25,33 @@
       width: 100%;
 
       &:before {
-      position: absolute;
+        position: absolute;
+      }
     }
-    }
-
   }
+}
 
+@media screen and (max-width: @laptopBreak) {
+  .video-wrapper-main {
+    .video-wrapper {
+      width: 700px;
+
+      .video {
+        height: 415px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: @tabletBreak) {
+  .video-wrapper-main {
+    .video-wrapper {
+      width: 100%;
+      max-width: 400px;
+
+      .video {
+        height: 300px;
+      }
+    }
+  }
 }

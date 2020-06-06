@@ -1,17 +1,18 @@
-<div class="video-wrapper">
-  <h2>{{title}}</h2>
+<div class="video-wrapper-main">
+  <h2>{{ title }}</h2>
   <div class="video-wrapper">
-    <video (click)="toggleVideo()"
-           #videoPlayer
-           [muted]="'muted'"
-           controls
-           preload="auto"
-           id="video"
-           class="video">
-      <source src="{{srcWebm}}" type="video/webm">
-      <source src="{{srcMp4}}" type="video/mp4">
+    <video
+      (click)="toggleVideo()"
+      #videoPlayer
+      [muted]="'muted'"
+      controls
+      preload="auto"
+      id="video"
+      class="video"
+    >
+      <source src="{{ srcWebm }}" type="video/webm" />
+      <source src="{{ srcMp4 }}" type="video/mp4" />
     </video>
-<!--    <div class="video-cover"></div>-->
+    <!--    <div class="video-cover"></div>-->
   </div>
-
 </div>
