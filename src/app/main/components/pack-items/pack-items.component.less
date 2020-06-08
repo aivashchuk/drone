@@ -46,7 +46,7 @@
 
   .text {
     color: #474747;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 34px;
     font-weight: 700;
     line-height: 1;
@@ -55,7 +55,7 @@
     padding-left: 64px;
 
     &:before {
-      content: '+';
+      content: "+";
       color: #ffa800;
       font-size: 133px;
       font-weight: 600;
@@ -75,6 +75,157 @@
     &-2 {
       right: 0;
       bottom: 280px;
+    }
+  }
+}
+
+@media screen and (max-width: @desktopBreak) {
+  .pack-wrapper {
+    .pack-inner {
+      max-width: 1100px;
+      height: 910px;
+    }
+
+    .img {
+      transform: scale(0.9);
+      &-1 {
+        left: 0;
+        top: 60px;
+      }
+      &-2 {
+        right: 48px;
+        top: 87px;
+      }
+      &-3 {
+        left: 0;
+        bottom: 54px;
+      }
+      &-4 {
+        right: 249px;
+        bottom: 121px;
+      }
+    }
+
+    .text {
+      font-size: 34px;
+      min-height: 72px;
+      padding-left: 64px;
+
+      &:before {
+        font-size: 133px;
+        left: -5px;
+        top: 50%;
+      }
+
+      &-1 {
+        line-height: 72px;
+        top: 388px;
+        left: 0;
+      }
+      &-2 {
+        right: 0;
+        bottom: 280px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: @laptopBreak) {
+  .pack-wrapper {
+    .pack-inner {
+      max-width: 700px;
+      height: 840px;
+    }
+
+    .img {
+      transform: scale(0.6);
+      &-1 {
+        left: -20px;
+        top: 40px;
+      }
+      &-2 {
+        right: -30px;
+        top: 67px;
+      }
+      &-3 {
+        left: 0;
+        bottom: 50px;
+      }
+      &-4 {
+        right: 140px;
+        bottom: 80px;
+      }
+    }
+
+    .text {
+      font-size: 28px;
+      min-height: 56px;
+      padding-left: 54px;
+
+      &:before {
+        font-size: 100px;
+        left: -5px;
+        top: 50%;
+      }
+
+      &-1 {
+        line-height: 72px;
+        top: 330px;
+        left: 80px;
+      }
+      &-2 {
+        right: 0;
+        bottom: 240px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: @tabletBreak) {
+  .pack-wrapper {
+    .pack-inner {
+      max-width: 375px;
+      height: auto;
+      padding-bottom: 40px;
+    }
+
+    .img {
+      transform: scale(0.6);
+      position: static;
+      margin-left: auto;
+      margin-right: auto;
+      &.img-2 {
+        position: relative;
+        left: 50%;
+        margin: 0;
+        transform: translateX(-50%) scale(0.5);
+      }
+    }
+
+    .text {
+      font-size: 28px;
+      min-height: 0;
+      padding-left: 54px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+
+      &:before {
+        font-size: 100px;
+        left: -5px;
+        top: 50%;
+      }
+
+      &-1 {
+        top: initial;
+        left: initial;
+        max-width: 70px;
+      }
+      &-2 {
+        right: initial;
+        bottom: initial;
+        max-width: 145px;
+      }
     }
   }
 }
